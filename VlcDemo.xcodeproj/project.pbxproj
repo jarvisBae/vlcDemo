@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0599FF24FF5A8300785138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0599FE24FF5A8300785138 /* AppDelegate.swift */; };
+		9B059A0124FF5A8300785138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B059A0024FF5A8300785138 /* SceneDelegate.swift */; };
+		9B059A0324FF5A8300785138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B059A0224FF5A8300785138 /* ViewController.swift */; };
+		9B059A0624FF5A8300785138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B059A0424FF5A8300785138 /* Main.storyboard */; };
+		9B059A0824FF5A8800785138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B059A0724FF5A8800785138 /* Assets.xcassets */; };
+		9B059A0B24FF5A8800785138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B059A0924FF5A8800785138 /* LaunchScreen.storyboard */; };
+		9B059A1624FF5A8800785138 /* VlcDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B059A1524FF5A8800785138 /* VlcDemoTests.swift */; };
+		9B059A2124FF5A8900785138 /* VlcDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B059A2024FF5A8900785138 /* VlcDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B059A1224FF5A8800785138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0599F324FF5A8300785138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0599FA24FF5A8300785138;
+			remoteInfo = VlcDemo;
+		};
+		9B059A1D24FF5A8800785138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0599F324FF5A8300785138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0599FA24FF5A8300785138;
+			remoteInfo = VlcDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0599FB24FF5A8300785138 /* VlcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VlcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0599FE24FF5A8300785138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B059A0024FF5A8300785138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B059A0224FF5A8300785138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B059A0524FF5A8300785138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B059A0724FF5A8800785138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B059A0A24FF5A8800785138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B059A0C24FF5A8800785138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B059A1124FF5A8800785138 /* VlcDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VlcDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B059A1524FF5A8800785138 /* VlcDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VlcDemoTests.swift; sourceTree = "<group>"; };
+		9B059A1724FF5A8800785138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B059A1C24FF5A8800785138 /* VlcDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VlcDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B059A2024FF5A8900785138 /* VlcDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VlcDemoUITests.swift; sourceTree = "<group>"; };
+		9B059A2224FF5A8900785138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0599F824FF5A8300785138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B059A0E24FF5A8800785138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B059A1924FF5A8800785138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0599F224FF5A8300785138 = {
+			isa = PBXGroup;
+			children = (
+				9B0599FD24FF5A8300785138 /* VlcDemo */,
+				9B059A1424FF5A8800785138 /* VlcDemoTests */,
+				9B059A1F24FF5A8800785138 /* VlcDemoUITests */,
+				9B0599FC24FF5A8300785138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0599FC24FF5A8300785138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0599FB24FF5A8300785138 /* VlcDemo.app */,
+				9B059A1124FF5A8800785138 /* VlcDemoTests.xctest */,
+				9B059A1C24FF5A8800785138 /* VlcDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0599FD24FF5A8300785138 /* VlcDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B0599FE24FF5A8300785138 /* AppDelegate.swift */,
+				9B059A0024FF5A8300785138 /* SceneDelegate.swift */,
+				9B059A0224FF5A8300785138 /* ViewController.swift */,
+				9B059A0424FF5A8300785138 /* Main.storyboard */,
+				9B059A0724FF5A8800785138 /* Assets.xcassets */,
+				9B059A0924FF5A8800785138 /* LaunchScreen.storyboard */,
+				9B059A0C24FF5A8800785138 /* Info.plist */,
+			);
+			path = VlcDemo;
+			sourceTree = "<group>";
+		};
+		9B059A1424FF5A8800785138 /* VlcDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B059A1524FF5A8800785138 /* VlcDemoTests.swift */,
+				9B059A1724FF5A8800785138 /* Info.plist */,
+			);
+			path = VlcDemoTests;
+			sourceTree = "<group>";
+		};
+		9B059A1F24FF5A8800785138 /* VlcDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B059A2024FF5A8900785138 /* VlcDemoUITests.swift */,
+				9B059A2224FF5A8900785138 /* Info.plist */,
+			);
+			path = VlcDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0599FA24FF5A8300785138 /* VlcDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B059A2524FF5A8900785138 /* Build configuration list for PBXNativeTarget "VlcDemo" */;
+			buildPhases = (
+				9B0599F724FF5A8300785138 /* Sources */,
+				9B0599F824FF5A8300785138 /* Frameworks */,
+				9B0599F924FF5A8300785138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VlcDemo;
+			productName = VlcDemo;
+			productReference = 9B0599FB24FF5A8300785138 /* VlcDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B059A1024FF5A8800785138 /* VlcDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B059A2824FF5A8900785138 /* Build configuration list for PBXNativeTarget "VlcDemoTests" */;
+			buildPhases = (
+				9B059A0D24FF5A8800785138 /* Sources */,
+				9B059A0E24FF5A8800785138 /* Frameworks */,
+				9B059A0F24FF5A8800785138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B059A1324FF5A8800785138 /* PBXTargetDependency */,
+			);
+			name = VlcDemoTests;
+			productName = VlcDemoTests;
+			productReference = 9B059A1124FF5A8800785138 /* VlcDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B059A1B24FF5A8800785138 /* VlcDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B059A2B24FF5A8900785138 /* Build configuration list for PBXNativeTarget "VlcDemoUITests" */;
+			buildPhases = (
+				9B059A1824FF5A8800785138 /* Sources */,
+				9B059A1924FF5A8800785138 /* Frameworks */,
+				9B059A1A24FF5A8800785138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B059A1E24FF5A8800785138 /* PBXTargetDependency */,
+			);
+			name = VlcDemoUITests;
+			productName = VlcDemoUITests;
+			productReference = 9B059A1C24FF5A8800785138 /* VlcDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0599F324FF5A8300785138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "JINKI BAE";
+				TargetAttributes = {
+					9B0599FA24FF5A8300785138 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9B059A1024FF5A8800785138 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9B0599FA24FF5A8300785138;
+					};
+					9B059A1B24FF5A8800785138 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9B0599FA24FF5A8300785138;
+					};
+				};
+			};
+			buildConfigurationList = 9B0599F624FF5A8300785138 /* Build configuration list for PBXProject "VlcDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B0599F224FF5A8300785138;
+			productRefGroup = 9B0599FC24FF5A8300785138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0599FA24FF5A8300785138 /* VlcDemo */,
+				9B059A1024FF5A8800785138 /* VlcDemoTests */,
+				9B059A1B24FF5A8800785138 /* VlcDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0599F924FF5A8300785138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B059A0B24FF5A8800785138 /* LaunchScreen.storyboard in Resources */,
+				9B059A0824FF5A8800785138 /* Assets.xcassets in Resources */,
+				9B059A0624FF5A8300785138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B059A0F24FF5A8800785138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B059A1A24FF5A8800785138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0599F724FF5A8300785138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B059A0324FF5A8300785138 /* ViewController.swift in Sources */,
+				9B0599FF24FF5A8300785138 /* AppDelegate.swift in Sources */,
+				9B059A0124FF5A8300785138 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B059A0D24FF5A8800785138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B059A1624FF5A8800785138 /* VlcDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B059A1824FF5A8800785138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B059A2124FF5A8900785138 /* VlcDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B059A1324FF5A8800785138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0599FA24FF5A8300785138 /* VlcDemo */;
+			targetProxy = 9B059A1224FF5A8800785138 /* PBXContainerItemProxy */;
+		};
+		9B059A1E24FF5A8800785138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0599FA24FF5A8300785138 /* VlcDemo */;
+			targetProxy = 9B059A1D24FF5A8800785138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B059A0424FF5A8300785138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B059A0524FF5A8300785138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B059A0924FF5A8800785138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B059A0A24FF5A8800785138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B059A2324FF5A8900785138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B059A2424FF5A8900785138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B059A2624FF5A8900785138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY464QJ8B5;
+				INFOPLIST_FILE = VlcDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VlcDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B059A2724FF5A8900785138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY464QJ8B5;
+				INFOPLIST_FILE = VlcDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VlcDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B059A2924FF5A8900785138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY464QJ8B5;
+				INFOPLIST_FILE = VlcDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VlcDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VlcDemo.app/VlcDemo";
+			};
+			name = Debug;
+		};
+		9B059A2A24FF5A8900785138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY464QJ8B5;
+				INFOPLIST_FILE = VlcDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VlcDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VlcDemo.app/VlcDemo";
+			};
+			name = Release;
+		};
+		9B059A2C24FF5A8900785138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY464QJ8B5;
+				INFOPLIST_FILE = VlcDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VlcDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VlcDemo;
+			};
+			name = Debug;
+		};
+		9B059A2D24FF5A8900785138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY464QJ8B5;
+				INFOPLIST_FILE = VlcDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VlcDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VlcDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0599F624FF5A8300785138 /* Build configuration list for PBXProject "VlcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B059A2324FF5A8900785138 /* Debug */,
+				9B059A2424FF5A8900785138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B059A2524FF5A8900785138 /* Build configuration list for PBXNativeTarget "VlcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B059A2624FF5A8900785138 /* Debug */,
+				9B059A2724FF5A8900785138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B059A2824FF5A8900785138 /* Build configuration list for PBXNativeTarget "VlcDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B059A2924FF5A8900785138 /* Debug */,
+				9B059A2A24FF5A8900785138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B059A2B24FF5A8900785138 /* Build configuration list for PBXNativeTarget "VlcDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B059A2C24FF5A8900785138 /* Debug */,
+				9B059A2D24FF5A8900785138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B0599F324FF5A8300785138 /* Project object */;
+}
