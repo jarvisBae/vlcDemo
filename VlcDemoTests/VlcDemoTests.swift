@@ -30,5 +30,23 @@ class VlcDemoTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testLoadFileParseJSON() throws {
+        do {
+            if let file = Bundle.main.url(forResource: "videos", withExtension: "txt") {
+                let data = try Data(contentsOf: file)
+                let json = try JSONSerialization.jsonObject(with: data, options: [])
+                if let dict = json as? Dictionary<String,AnyObject> {
+                    //TODO json parse
+                    let videos = dict["videos"]
+                    print("data is : \(videos)")
+                }
+            } else {
+                XCTFail()
+            }
+        } catch {
+            XCTFail()
+        }
+    }
 
 }
